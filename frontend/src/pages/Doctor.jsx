@@ -9,7 +9,7 @@ const Doctor = () => {
             <img className="rounded-2xl" src={chey} alt="chey"/>
           </div>
           <div className="lg:w-1/2 ms:w-auto">
-            <h2 className="heading mb-5 pl-[60px] text-left">Mas acerca de mi</h2>
+            <h2 className="heading mb-5 pl-[60px] text-left">Acerca de <span className="text-irisBlueColor">Cheylin Peña</span></h2>
             <p className="mr-[70px] pl-[60px] text-[16px] leading-9 text-justify font-[400] text-textColor">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Ea cum officia suscipit! Ipsa praesentium quisquam quasi 
               sequi vel est dignissimos eveniet, maiores nam, aut molestiae 
@@ -28,22 +28,56 @@ const Doctor = () => {
           </div>
         </div>
 
-        <div className="mt-12">
-          <h3 className="text-[20px] leading-[30px] text-headingColor fonr-semibold">
+        <div className="mt-12 flex flex-col mx-[75px]">
+          <h2 className="heading leading-[30px] flex justify-start text-headingColor font-semibold float-left">
             Educacion
-          </h3>
-          <ul className="pt-4 md:p-5">
-            <li className="flex flex-col sm:flex-row sm:justify-between sm:items-end md:gap-5 mb-[30px]">
+          </h2>
+          <ul className="w-1/2 p-4 md:p-5">
+            <li className="sm:flex-row md:gap-5 mb-[30px]">
               <div>
-                <span className="text-irisBlueColor text-[15px] leading-6 font-semibold">
+                <span className="flex justify-start text-irisBlueColor text-[15px] leading-6 font-semibold">
                   23 Junio, 2008
                 </span>
-                <p className="text-[16px] leading-6 font-medium text-textColor">
-                  PHD in UCE
-                </p>
-                <p className="text-[14px] leading-5 font-medium text-textColor">
-                  Lo que sea over ofa-flip-vertical
-                </p>
+                <div className="flex flex-row justify-between w-full">
+                  <p className="text-[18px] leading-6 font-medium text-textColor">
+                    PHD En odontologia
+                  </p>
+                  <p className="text-[18px] leading-5 font-medium text-textColor">
+                    Universidad Central Del Este
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li className="sm:flex-row md:gap-5 mb-[30px]">
+              <div>
+                <span className="flex justify-start text-irisBlueColor text-[15px] leading-6 font-semibold">
+                  23 Junio, 2008
+                </span>
+                <div className="flex flex-row justify-between w-full">
+                  <p className="text-[18px] leading-6 font-medium text-textColor">
+                    PHD En odontologia
+                  </p>
+                  <p className="text-[18px] leading-5 font-medium text-textColor">
+                    Universidad Central Del Este
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li className="sm:flex-row md:gap-5 mb-[30px]">
+              <div>
+                <span className="flex justify-start text-irisBlueColor text-[15px] leading-6 font-semibold">
+                  23 Junio, 2008
+                </span>
+                <div className="flex flex-row justify-between w-full">
+                  <p className="text-[18px] leading-6 font-medium text-textColor">
+                    PHD En odontologia
+                  </p>
+                  <p className="text-[18px] leading-5 font-medium text-textColor">
+                    Universidad Central Del Este
+                  </p>
+                </div>
               </div>
             </li>
           </ul>

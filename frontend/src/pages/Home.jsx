@@ -28,12 +28,12 @@ const Home = () => {
             <div>
               <div className="lg:w-[570px]">
                 <h1 className="text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px] md:leading-[70px]">
-                  Ayudamos a los pacientes a mejor su dentadura y su vida.
+                Transforma Tu Sonrisa y Brilla con Confianza.
                 </h1>
                 <p className="text__para">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque rem iste 
-                  temporibus odit magnam tempora nobis et maxime delectus fugit libero qui, 
-                  id voluptas neque aspernatur corporis blanditiis consequuntur nihil?
+                Deja tu salud en manos profesioanles. Ofrecemos cuidado dental 
+                de calidad, procedimientos avanzados y atención personalizada 
+                para mantener tu sonrisa radiante y saludable.
                 </p>
 
                 <button className="btn">
